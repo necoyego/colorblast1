@@ -1,4 +1,4 @@
-package com.example.colorblast
+package com.necoyego.colorblast
 
 import io.flutter.embedding.android.FlutterActivity
 
