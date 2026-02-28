@@ -16,7 +16,7 @@ git config user.name "necoyego"
 
 echo Dosyalar ekleniyor...
 git add .
-git commit -m "Fix: Ignore newlines when decoding base64 keystore" 2>nul
+git commit -m "Fix: Corrected keystore resolving path in build properties" 2>nul
 
 echo Remote ayarlaniyor...
 git remote remove origin 2>nul
