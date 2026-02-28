@@ -1,0 +1,9 @@
+@echo off
+title Grid Master Puzzle - Baslatici
+echo Oyun baslatiliyor, lutfen bekleyin...
+echo Gereksinimler indiriliyor...
+call C:\src\flutter\bin\flutter.bat pub get
+echo.
+echo Oyun Chrome tarayicisi uzerinde aciliyor ve Telefon baglantisi hazirlaniyor (Port 8080)...
+call C:\src\flutter\bin\flutter.bat run -d chrome --web-hostname localhost --web-port 8080
+pause
