@@ -16,7 +16,7 @@ git config user.name "necoyego"
 
 echo Dosyalar ekleniyor...
 git add .
-git commit -m "Added GitHub Actions workflow to generate keystore online" 2>nul
+git commit -m "Trigger final signed release build for Google Play" 2>nul
 
 echo Remote ayarlaniyor...
 git remote remove origin 2>nul
