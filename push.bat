@@ -16,7 +16,7 @@ git config user.name "necoyego"
 
 echo Dosyalar ekleniyor...
 git add .
-git commit -m "Fix: Removed invalid build flag for AAB" 2>nul
+git commit -m "Fix: Opt out of new Gradle DSL to resolve build failure" 2>nul
 
 echo Remote ayarlaniyor...
 git remote remove origin 2>nul
